@@ -8,3 +8,11 @@ body {
   background-color:#374151;
   color: white;
 }
+
+html::-webkit-scrollbar{
+  display: none;
+}
+
+html{
+  scrollbar-width: none;
+}
