@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "./Providers";
 import Navbar from "@/components/Navbar";
 import { use } from "react";
+import SearchBox from "@/components/SearchBox";
 
 export const metadata = {
   title: 'Imdb Clone',
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <Navbar/>
 
           {/* Searchbox */}
+          <SearchBox/>
 
           {children}
         {/* </Providers> */}
