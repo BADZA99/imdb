@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+/* mettre la couleur noir au body */
+body {
+  background-color:#374151;
+  color: white;
+}

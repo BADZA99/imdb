@@ -1,9 +1,13 @@
-// import { CiDark } from "react-icons/ai";
+
 export default function DarkModeSwitch() {
+
+  // const changebg = () => {
+  //   document.body.style.backgroundColor = 'black';
+  //   document.body.style.color = 'white';
+  // }
   return (
     <div className=''>
-      {/* <CiDark/> */}
-      dark/light
+      <h1>Dark</h1>
     </div>
   )
 }
